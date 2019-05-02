@@ -7,6 +7,10 @@ Clone到本地后直接在IDE中运行web模块下的ModulesApplication
 
 然后访问 http://locaohost:8080/monkey 就可以看到返回值了。
 
+`./web`是我们的web层，主程序就在这里面。
+
+`./service`是模拟的service层，我们的web层依赖了它。
+
 ## 如何基于Maven搭建SpringBoot的模块化工程？
 
 1. 使用Spring Init 初始化一个SpringBoot的项目，作为父项目
