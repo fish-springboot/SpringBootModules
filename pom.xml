@@ -5,7 +5,7 @@
     <modules>
         <module>web</module>
         <module>service</module>
-        <module>demon1</module>
+        <module>commons</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
